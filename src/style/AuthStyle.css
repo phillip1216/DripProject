@@ -1,0 +1,66 @@
+
+    .Auth{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .auth_wrap{
+        width: 80%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .AuthForm{
+        width: 100%;
+        height: 60%;
+        /* background-color: #444; */
+        display: flex;
+        align-items: center;
+        justify-content: center;;
+    }
+    .AuthForm_form{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .AuthForm_form input[type=email], input[type=password]{
+        width: 90%;
+        height: 20%;
+        border-radius: 25px;
+        padding-left: 20px;
+        border: 1px solid #333; 
+        cursor:text;
+    }
+    .AuthForm_form input[type=submit]{
+        width: 90%;
+        height: 30%;
+        border-radius: 25px;
+        border: 1px solid #333; 
+        background-color: white;
+        font-weight: bold;
+        
+    }
+    .SocialBtn{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SocialBtn button{
+        cursor: pointer;
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        border: 2px solid #333;
+    }

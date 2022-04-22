@@ -1,0 +1,49 @@
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+}
+.home_form{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+}
+.home_form_wrap{
+    border-radius: 25px;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
+.home_form_input{
+    background-color: none;
+    width: 70%;
+    height: 35px;
+    cursor: text;
+}
+.home_form_submit{
+    background-color: white;
+    border-left: 1px solid #333;
+    width: 20%;
+    height: 35px;
+}
+.home_list{
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+}
+.home_list_scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

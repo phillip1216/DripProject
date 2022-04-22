@@ -1,0 +1,45 @@
+.list_item{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.list_con{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_con input{
+    width: auto;
+    font-weight: bold;
+    height: 100%;
+    cursor: text;
+    text-align: center;
+
+}
+.list_btn{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list_btn button{
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #333;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
